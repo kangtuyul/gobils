@@ -6,7 +6,7 @@ const moment = require('moment');
 const fs = require('async-file');
 const uuidv4 = require('uuid/v4');
 var uuid = uuidv4();
-
+var gajelas = 0;
 
 const phoneNumber = readlineSync.question('Masukan No Hp: ');
 
